@@ -1,4 +1,28 @@
 /* color palette from <https://github.com/vuejs/theme> */
 body {
+  background-color: #222222;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.link {
+  display: inline-block;
+}
+
+.link:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #222222;
+  transform: scaleX(0);  
+  
+}
+.link:hover:after { 
+  transform: scaleX(1); 
+  transition: transform 500ms ease-in-out;
+}
+.link:after{  
+  transform-origin:  0% 50%; 
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
 }
