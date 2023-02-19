@@ -1,54 +1,52 @@
 <template>
   <main>
-    <section class="flex flex-col sm:flex-row flex-wrap max-w-screen-xl sm:mx-auto">
-      <div class="px-3 sm:pl-3 sm:pr-0 pt-3 w-full sm:w-6/12">
-        <div class="bg-dummy-image bg-opacity-50 h-96 bg-cover w-full group">
+    <section class="flex flex-col mt-10 sm:flex-row flex-wrap max-w-screen-xl sm:mx-auto">
+      <div class="wrapper px-3 pt-3 w-full sm:w-6/12">
+        <img :src="image1" alt="" class="w-full">
+        <div class="link-cover hover:bg-stone-900 hover:bg-opacity-50 bg-cover w-full group">
           <RouterLink
-            class="bg-stone-900 hidden bg-opacity-50 w-full h-96 group-hover:flex justify-center items-center uppercase text-slate-50"
+            class="hidden text-2xl bg-opacity-50 w-full group-hover:flex justify-center items-center uppercase text-slate-50"
             :to="'/project/' + 1"
             >Veiw Progect</RouterLink>
         </div>
       </div>
-      <div class="px-3 sm:pl-3 sm:pr-0 pt-3 w-full sm:w-6/12">
-        <div class="bg-dummy-image bg-opacity-50 h-96 bg-cover w-full group">
+      <div class="wrapper px-3 pt-3 w-full sm:w-6/12">
+        <img :src="image2" alt="" class="w-full">
+        <div class="link-cover hover:bg-stone-900 hover:bg-opacity-50 bg-cover w-full group">
           <RouterLink
-            class="bg-stone-900 hidden bg-opacity-50 w-full h-96 group-hover:flex justify-center items-center uppercase text-slate-50"
+            class="hidden text-2xl bg-opacity-50 w-full group-hover:flex justify-center items-center uppercase text-slate-50"
             :to="'/project/' + 2"
-            >Veiw Progect</RouterLink>
-        </div>
-      </div>
-      <div class="px-3 sm:pl-3 sm:pr-0 pt-3 w-full sm:w-6/12">
-        <div class="bg-dummy-image bg-opacity-50 h-96 bg-cover w-full group">
-          <RouterLink
-            class="bg-stone-900 hidden bg-opacity-50 w-full h-96 group-hover:flex justify-center items-center uppercase text-slate-50"
-            :to="'/project/' + 3"
-            >Veiw Progect</RouterLink>
-        </div>
-      </div>
-      <div class="px-3 sm:pl-3 sm:pr-0 pt-3 w-full sm:w-6/12">
-        <div class="bg-dummy-image bg-opacity-50 h-96 bg-cover w-full group">
-          <RouterLink
-            class="bg-stone-900 hidden bg-opacity-50 w-full h-96 group-hover:flex justify-center items-center uppercase text-slate-50"
-            :to="'/project/' + 3"
-            >Veiw Progect</RouterLink>
-        </div>
-      </div>
-      <div class="px-3 sm:pl-3 sm:pr-0 pt-3 w-full sm:w-6/12">
-        <div class="bg-dummy-image bg-opacity-50 h-96 bg-cover w-full group">
-          <RouterLink
-            class="bg-stone-900 hidden bg-opacity-50 w-full h-96 group-hover:flex justify-center items-center uppercase text-slate-50"
-            :to="'/project/' + 5"
-            >Veiw Progect</RouterLink>
-        </div>
-      </div>
-      <div class="px-3 sm:pl-3 sm:pr-0 pt-3 w-full sm:w-6/12">
-        <div class="bg-dummy-image bg-opacity-50 h-96 bg-cover w-full group">
-          <RouterLink
-            class="bg-stone-900 hidden bg-opacity-50 w-full h-96 group-hover:flex justify-center items-center uppercase text-slate-50"
-            :to="'/project/' + 1"
             >Veiw Progect</RouterLink>
         </div>
       </div>
     </section>
   </main>
 </template>
+
+<script>
+import ginger from '../assets/images/ginger-retouched.png';
+import parfumeBlue from '../assets/images/ParfumeBlue.png'
+
+export default {
+  data(){
+    return {
+      image1: ginger,
+      image2: parfumeBlue
+    }
+  }
+}
+</script>
+
+<style scoped>
+.wrapper {
+  position: relative;
+}
+
+.link-cover {
+  position: absolute;
+  top: 12px;
+  padding-top: 60%;
+  height: 100%;
+}
+
+</style>
