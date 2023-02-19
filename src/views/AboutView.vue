@@ -21,7 +21,7 @@ export default {
 
 
 <template>
-    <section class="bg-slate-50 px-5 md:px-20 pt-20 max-w-screen-xl h-screen sm:mx-auto">
+    <section class="bg-slate-50 px-5 md:px-20 pt-20 max-w-screen-xl h-full sm:mx-auto">
       <h1 class="text-7xl mb-20">About</h1>
       <article class="flex flex-col items-center md:flex-row md:items-start">
         <img class="object-cover h-59 w-96 mb-10" :src="profileImage" alt="">
