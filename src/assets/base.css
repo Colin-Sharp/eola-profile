@@ -4,6 +4,12 @@ body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+
 .link {
   display: inline-block;
 }

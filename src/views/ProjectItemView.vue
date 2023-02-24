@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-slate-50 h-full">
+    <div>
         <project-item></project-item>
     </div>
 </template>
