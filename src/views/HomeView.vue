@@ -1,13 +1,15 @@
 <template>
   <main>
-    <section class="flex flex-col mt-10 sm:flex-row flex-wrap max-w-screen-xl sm:mx-auto">
-      <div v-for="(image, index) in images" :key="index" class="wrapper px-3 pt-3 w-full sm:w-6/12">
-        <img :src="image" alt="" class="w-full">
-        <div class="link-cover hover:bg-stone-900 hover:bg-opacity-50 bg-cover w-full group">
-          <RouterLink
-            class="hidden text-2xl bg-opacity-50 w-full group-hover:flex justify-center items-center uppercase text-slate-50"
-            :to="'/project/' + (index + 1)"
-            >Veiw Progect</RouterLink>
+    <section class="flex flex-col items-center mt-10 sm:flex-row flex-wrap max-w-screen-xl sm:mx-auto">
+      <div v-for="(image, index) in images" :key="index" class="wrapper w-full h-96 sm:w-6/12 md:w-3/12 md:mb-6">
+        <div :class="[image, 'md:w-11/12 mx-auto bg-cover w-full h-full']">
+          <div class="link-cover bg-stone-900 bg-opacity-50 sm:bg-opacity-0 hover:bg-stone-900  hover:bg-opacity-50 bg-cover w-full md:w-11/12 group">
+            <RouterLink
+              class="flex sm:hidden text-2xl bg-opacity-50 w-full group-hover:flex justify-center uppercase text-slate-50 "
+              :to="'/project/' + (index + 1)"
+              >Veiw Progect
+            </RouterLink>
+          </div>
         </div>
       </div>
     </section>
@@ -15,17 +17,18 @@
 </template>
 
 <script>
-import ginger from '../assets/images/ginger-retouched.png';
-import parfumeBlue from '../assets/images/ParfumeBlueLink.png';
-import limeAndRed from '../assets/images/Lime-and-Red-v2.png';
 
 export default {
   data(){
     return {
       images: [
-        ginger,
-        parfumeBlue,
-        limeAndRed
+        'bg-ginger',
+        'bg-parfumeBlueAfter',
+        'bg-limeAndRed',
+        'bg-Chanelretoched',
+        'bg-PortraitAfter',
+        'bg-bag',
+        'bg-sasha'
       ]
     }
   }
@@ -39,7 +42,7 @@ export default {
 
 .link-cover {
   position: absolute;
-  top: 12px;
+  top: 0;
   padding-top: 60%;
   height: 100%;
 }

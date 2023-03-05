@@ -4,7 +4,13 @@ module.exports = {
     theme: {
         extend: {
           backgroundImage: theme => ({
-            'dummy-image': "url('/src/assets/images/profile-image.png')"
+            'ginger': "url('/src/assets/images/ginger-retouched.png')",
+            'parfumeBlueAfter': "url('/src/assets/images/ParfumeBlue.png')",
+            'limeAndRed': "url('/src/assets/images/Lime-and-Red-v2.png')",
+            'Chanelretoched': "url('/src/assets/images/Chanelretoched.png')",
+            'PortraitAfter': "url('/src/assets/images/PortraitAfter.jpg')",
+            'bag': "url('/src/assets/images/Bag.jpeg')",
+            'sasha': "url('/src/assets/images/SashaRetouchedFinal.png')"
           }),
           display: ["group-hover"]
         },

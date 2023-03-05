@@ -33,6 +33,16 @@ import parfumeBlueAfter from '../assets/images/ParfumeBlue.png';
 import parfumeBlueBefore from '../assets/images/BluePorfumeOriginal.png';
 import limeAndRed from '../assets/images/Lime-and-Red-v2.png';
 import limeAndRedBefore from '../assets/images/Lime-and-Red-original.jpg';
+
+import chanelretoched from '../assets/images/Chanelretoched.png';
+import chanelOriginal from '../assets/images/ChanelOriginal.png';
+import portraitAfter from '../assets/images/PortraitAfter.jpg';
+import portraitBefore from '../assets/images/PortraitBefore.jpg';
+import bagBefore from '../assets/images/Bag-before.jpeg';
+import bagAfter from '../assets/images/Bag.jpeg';
+import sashaBefore from '../assets/images/SashaOriginal.png';
+import sashaAfter from '../assets/images/SashaRetouchedFinal.png';
+
 export default {
    data() {
      return {
@@ -52,6 +62,26 @@ export default {
             images: [
                 limeAndRedBefore,
                 limeAndRed
+            ]},
+            {id: 4,
+            images: [
+                chanelOriginal,
+                chanelretoched
+            ]},
+            {id: 5,
+            images: [
+                portraitBefore,
+                portraitAfter
+            ]},
+            {id: 6,
+            images: [
+                bagBefore,
+                bagAfter
+            ]},
+            {id: 7,
+            images: [
+                sashaBefore,
+                sashaAfter
             ]},
         ],
         currentId: 1
