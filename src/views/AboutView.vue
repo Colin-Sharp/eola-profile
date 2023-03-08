@@ -31,7 +31,7 @@ export default {
     <section class="bg-slate-50 px-5 md:px-20 md:py-10 pt-10 max-w-screen-xl h-full sm:mx-auto">
       <h1 class="text-7xl mb-20">About</h1>
       <article class="flex flex-col items-center lg:flex-row md:items-start">
-        <img class="object-cover lg:w-4/12 mb-8 lg:pt-5 lg:px-5 lg:mb-0" :src="profileImage" alt="">
+        <img @contextmenu="$event.preventDefault()" class="object-cover lg:w-4/12 mb-8 lg:pt-5 lg:px-5 lg:mb-0" :src="profileImage" alt="">
         <div class="lg:ml-9 lg:w-7/12">
           <h4 class="text-4xl mb-3">Charlotte Zaboronok</h4>
           <p class="leading-8 lg:hidden">
@@ -54,25 +54,25 @@ export default {
           </div>
         </div>
       </article> 
-      <h4 class="text-2xl mt-16 mb-3 font-bold">PHOTOGRAPHY</h4>
+      <h4 class="text-2xl mt-16 mb-8 font-bold">PHOTOGRAPHY</h4>
       <div class="flex flex-col items-center sm:items-center sm:flex-row sm:justify-between sm:flex-wrap">
         <div class="w-full sm:w-6/12 flex flex-col items-center sm:items-center sm:flex-row sm:flex-wrap sm:mb-4">
-          <img :src="colin" class="object-cover w-full mb-1 sm:mb-0 sm:w-6/12 sm:pr-2 h-58" alt="">
-          <img :src="sasha2" class="object-cover w-full mb-1 sm:mb-0 sm:w-6/12 sm:pl-2 h-58" alt="">
+          <img @contextmenu="$event.preventDefault()" :src="colin" class="object-cover w-full mb-1 sm:mb-0 sm:w-6/12 sm:pr-2 h-58" alt="">
+          <img @contextmenu="$event.preventDefault()" :src="sasha2" class="object-cover w-full mb-1 sm:mb-0 sm:w-6/12 sm:pl-2 h-58" alt="">
         </div>
-        <div class="w-full sm:w-5/12 flex sm:justify-end sm:mb-4">
-          <img :src="sunset" class="object-cover mb-1 sm:mb-0 w-full h-58" alt="">
+        <div class="w-full sm:w-6/12 sm:pl-20 flex sm:justify-end sm:mb-4">
+          <img @contextmenu="$event.preventDefault()" :src="sunset" class="object-cover mb-1 sm:mb-0 w-full h-58" alt="">
         </div>
        <div class="w-full sm:w-6/12 flex flex-col items-center sm:items-center sm:flex-row sm:flex-wrap">
-          <img :src="rada" class="object-cover w-full mb-1 sm:mb-0 sm:w-6/12 sm:pr-2 h-58" alt="">
-          <img :src="sasha" class="object-cover w-full mb-1 sm:mb-0 sm:w-6/12 sm:pl-2 h-58" alt="">
+          <img @contextmenu="$event.preventDefault()" :src="rada" class="object-cover w-full mb-1 sm:mb-0 sm:w-6/12 sm:pr-2 h-58" alt="">
+          <img @contextmenu="$event.preventDefault()" :src="sasha" class="object-cover w-full mb-1 sm:mb-0 sm:w-6/12 sm:pl-2 h-58" alt="">
         </div>
-        <div class="w-full sm:w-5/12 flex sm:justify-end">
-          <img :src="childIcecream" class="object-cover mb-1 sm:mb-0 w-full h-58" alt="">
+        <div class="w-full sm:w-6/12 sm:pl-20 flex sm:justify-end">
+          <img @contextmenu="$event.preventDefault()" :src="childIcecream" class="object-cover mb-1 sm:mb-0 w-full h-58" alt="">
         </div>
       </div>
       <article>
-        <h4 class="text-2xl mt-16 mb-3 font-bold	">SKILLS</h4>
+        <h4 class="text-2xl my-16 mb-8 font-bold">SKILLS</h4>
         <div class="flex flex-wrap sm:justify-between sm:items-center">
           <ul class="mb-8 w-full sm:mx-auto sm:w-6/12 lg:w-4/12 lg:text-2xl list-disc pl-5 sm:pr-10">
             <li class="py-4 ">Product, Beauty, High-End Retouching</li>
@@ -83,30 +83,37 @@ export default {
             <li class="py-4 ">Butch photo processing.</li>
             <li class="py-4 ">Creating actions for Photoshop.</li>
           </ul>
-          <img class="object-cover w-full sm:w-6/12" :src="skills" alt="">
+          <img @contextmenu="$event.preventDefault()" class="object-cover w-full sm:w-6/12" :src="skills" alt="">
         </div>
       </article>
-      <article class="flex  items-start pt-16">
-          <p>
+      <article class="flex flex-col sm:mt-20 sm:flex-row items-start pt-16">
+        <div>
+          <p class="mb-4">
             I wanted to take a moment to share with you why I pressed pause on my photography career and took an extended break from the creative grind.
             Somewhere along the way, I lost touch with my passion. I was exhausted, uninspired, and felt like I was just going through the motions without any real connection to my work. So, I give myself the time to reassess my goals and priorities. I decided to take a step back and focus on the administrative job. 
-            <br>
+          </p>
+          <p class="mb-4">
             The pandemic gave me a rare moment to self-reflect on what's truly important in life. It took a while for me to realize that pursuing a creative career in its best form is an option. During this break, I reignited my love for learning and creating. I realised that I don't have to limit myself to just one form of creative expression. Instead, I can explore different mediums and techniques, and create something truly unique and meaningful.
-            <br>
+          </p>
+          <p class="mb-4">
             Having diverse experience has been crucial in my journey as a creative. It's given me a unique perspective on art. I've been able to push the boundaries of what I can create, and develop a more well-rounded approach to my work. Overall, my diverse experience has helped me to become a more versatile and adaptable artist, capable of tackling a wide range of projects with confidence and creativity.
-            <br>
+          </p>
+          <p class="mb-4">
             Today, I'm constantly honing my retouching skills and searching for ways to optimize my craft. I'm thrilled to apply for the Photo Editor position, as I truly believe that my diverse experience, passion, and commitment to the arts make me an ideal candidate for this role.
             Thank you for taking the time to read this message. I look forward to hearing from you soon.
-            <br>
+          </p>
+          <p class="mb-4">
             Sincerely,
-            <br>
+          </p>
+          <p>
             Charlotte
           </p>
-          <img class="object-cover ml-8 w-full sm:w-6/12" :src="beach" alt="">
+        </div>
+        <img @contextmenu="$event.preventDefault()" class="object-cover sm:ml-8 w-full sm:w-6/12" :src="beach" alt="">
         
       </article>
       <div class="flex justify-center py-32 ">
-          <button class="my-10 rounded px-10 py-1 button">
+          <button class="my-10 rounded px-20 py-5 button">
               <RouterLink class="text-2xl flex items-center" to="/contact">Get in Touch</RouterLink>
           </button>
       </div>
@@ -120,8 +127,11 @@ section {
 }
 .button {
     border: 2px solid #222222;
+    background: white;
+    transition: background 50ms ease-out;
 }
 .button:hover {
+    transition: background 50ms ease-out;
     background: #222222;
     color: #ffff;
 }

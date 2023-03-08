@@ -42,6 +42,8 @@ import bagBefore from '../assets/images/Bag-before.jpeg';
 import bagAfter from '../assets/images/Bag.jpeg';
 import sashaBefore from '../assets/images/SashaOriginal.png';
 import sashaAfter from '../assets/images/SashaRetouchedFinal.png';
+import DetailsAfter from '../assets/images/DetailsAfter1.png';
+import DetailsBefore from '../assets/images/DetailsBefore.jpg';
 
 export default {
    data() {
@@ -82,6 +84,11 @@ export default {
             images: [
                 sashaBefore,
                 sashaAfter
+            ]},
+            {id: 8,
+            images: [
+                DetailsBefore,
+                DetailsAfter
             ]},
         ],
         currentId: 1
