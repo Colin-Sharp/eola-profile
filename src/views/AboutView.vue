@@ -6,7 +6,8 @@ import sasha2 from '../assets/images/Изображение.png';
 import colin from '../assets/images/colin.png';
 import sunset from '../assets/images/sunset-paris.png';
 import skills from '../assets/images/skills.png';
-import rada from '../assets/images/Rada.png'
+import rada from '../assets/images/Rada.png';
+import beach from '../assets/images/beach.png';
 
 export default {
   data(){
@@ -18,7 +19,8 @@ export default {
       childIcecream: childIcecream,
       sunset: sunset,
       skills: skills,
-      rada: rada
+      rada: rada,
+      beach: beach
     }
   }
 }
@@ -26,23 +28,33 @@ export default {
 
 
 <template>
-    <section class="bg-slate-50 px-5 md:p-20 pt-20 max-w-screen-xl h-full sm:mx-auto">
+    <section class="bg-slate-50 px-5 md:px-20 md:py-10 pt-10 max-w-screen-xl h-full sm:mx-auto">
       <h1 class="text-7xl mb-20">About</h1>
       <article class="flex flex-col items-center lg:flex-row md:items-start">
-        <img class="object-cover lg:w-5/12 mb-8 lg:mb-0" :src="profileImage" alt="">
-        <div class="lg:pl-20 lg:w-5/12">
+        <img class="object-cover lg:w-4/12 mb-8 lg:pt-5 lg:px-5 lg:mb-0" :src="profileImage" alt="">
+        <div class="lg:ml-9 lg:w-7/12">
           <h4 class="text-4xl mb-3">Charlotte Zaboronok</h4>
-          <p class="leading-8 text-">
-            I started my career in the photo industry in the last months of College. First, I worked for my college 
-            photo laboratory, and after graduation, I got my first job as a photographer in the family photo studio. 
-            Soon after, I moved to work as an independent photographer, mainly focusing on events, schools, and family 
-            portraits. My Experience in the industry helped me become confident with high-level photographic terminology 
-            and techniques. In recent years I dedicated my focus to retouching as a career. I improved my knowledge in 
-            high-end and product photo editing.
+          <p class="leading-8 lg:hidden">
+            My career in the visual arts began early on, fueled by a passion for painting and an unwavering love for the art of storytelling. It was during my postgraduate diploma in Photography that I discovered the beauty and power of capturing moments and emotions through the lens.
+            After completing my education, I delved into the world of photography, initially working for my college photo laboratory before securing my first job as a photographer at a studio specialising in family portraits. It wasn't long before I leaped to become an independent photographer, focusing on events, schools, and family portraits. My experiences in the field helped me hone my craft, sharpen my photographic terminology and techniques, and develop my keen eye for composition.
+            More recently, I have shifted my focus to the art of retouching. I have always been fascinated by the ways in which post-processing techniques can influence the final result of an image, and I have dedicated myself to perfecting the art of high-end and product photo editing. Through my work as a retoucher, I have come to appreciate the importance of every pixel and the power of visual storytelling.
+            Overall, my journey has been one of continual growth and exploration, driven by a deep passion for the visual arts. Whether behind the camera or in front of the computer screen, I am committed to using my skills and experience to create stunning, evocative images that capture the imagination and inspire the soul.
           </p>
+          <div class="hidden lg:flex">
+            <p class="leading-6">
+              My career in the visual arts began early on, fueled by a passion for painting and an unwavering love for the art of storytelling. It was during my postgraduate diploma in Photography that I discovered the beauty and power of capturing moments and emotions through the lens.
+              After completing my education, I delved into the world of photography, initially working for my college photo laboratory before securing my first job as a photographer at a studio specialising in family portraits. It wasn't long before I leaped to become an independent photographer, focusing on events, schools, and family portraits. My experiences in the field helped me hone my craft, sharpen my photographic terminology and techniques,
+            </p> 
+            <p class="leading-6 pl-8">
+              and develop my keen eye for composition.
+              More recently, I have shifted my focus to the art of retouching. I have always been fascinated by the ways in which post-processing techniques can influence the final result of an image, and I have dedicated myself to perfecting the art of high-end and product photo editing. Through my work as a retoucher, I have come to appreciate the importance of every pixel and the power of visual storytelling.
+              Overall, my journey has been one of continual growth and exploration, driven by a deep passion for the visual arts. Whether behind the camera or in front of the computer screen, I am committed to using my skills and experience to create stunning, evocative images that capture the imagination and inspire the soul.
+            </p>
+
+          </div>
         </div>
       </article> 
-      <h4 class="text-2xl mt-8 mb-3">PHOTOGRAPHY</h4>
+      <h4 class="text-2xl mt-16 mb-3 font-bold">PHOTOGRAPHY</h4>
       <div class="flex flex-col items-center sm:items-center sm:flex-row sm:justify-between sm:flex-wrap">
         <div class="w-full sm:w-6/12 flex flex-col items-center sm:items-center sm:flex-row sm:flex-wrap sm:mb-4">
           <img :src="colin" class="object-cover w-full mb-1 sm:mb-0 sm:w-6/12 sm:pr-2 h-58" alt="">
@@ -60,19 +72,38 @@ export default {
         </div>
       </div>
       <article>
-        <h4 class="text-2xl mt-8 mb-3">SKILLS</h4>
+        <h4 class="text-2xl mt-16 mb-3 font-bold	">SKILLS</h4>
         <div class="flex flex-wrap sm:justify-between sm:items-center">
           <ul class="mb-8 w-full sm:mx-auto sm:w-6/12 lg:w-4/12 lg:text-2xl list-disc pl-5 sm:pr-10">
-            <li class="py-4 lg:py-8">Product, Beauty, High-End Retouching</li>
-            <li class="py-4 lg:py-8">Awareness of current design trends</li>
-            <li class="py-4 lg:py-8">Nondestructive editing</li>
-            <li class="py-4 lg:py-8">Colour grading</li>
-            <li class="py-4 lg:py-8">Colour consistency across images</li>
-            <li class="py-4 lg:py-8">Butch photo processing.</li>
-            <li class="py-4 lg:py-8">Creating actions for Photoshop.</li>
+            <li class="py-4 ">Product, Beauty, High-End Retouching</li>
+            <li class="py-4 ">Awareness of current design trends</li>
+            <li class="py-4 ">Nondestructive editing</li>
+            <li class="py-4 ">Colour grading</li>
+            <li class="py-4 ">Colour consistency across images</li>
+            <li class="py-4 ">Butch photo processing.</li>
+            <li class="py-4 ">Creating actions for Photoshop.</li>
           </ul>
           <img class="object-cover w-full sm:w-6/12" :src="skills" alt="">
         </div>
+      </article>
+      <article class="flex  items-start pt-16">
+          <p>
+            I wanted to take a moment to share with you why I pressed pause on my photography career and took an extended break from the creative grind.
+            Somewhere along the way, I lost touch with my passion. I was exhausted, uninspired, and felt like I was just going through the motions without any real connection to my work. So, I give myself the time to reassess my goals and priorities. I decided to take a step back and focus on the administrative job. 
+            <br>
+            The pandemic gave me a rare moment to self-reflect on what's truly important in life. It took a while for me to realize that pursuing a creative career in its best form is an option. During this break, I reignited my love for learning and creating. I realised that I don't have to limit myself to just one form of creative expression. Instead, I can explore different mediums and techniques, and create something truly unique and meaningful.
+            <br>
+            Having diverse experience has been crucial in my journey as a creative. It's given me a unique perspective on art. I've been able to push the boundaries of what I can create, and develop a more well-rounded approach to my work. Overall, my diverse experience has helped me to become a more versatile and adaptable artist, capable of tackling a wide range of projects with confidence and creativity.
+            <br>
+            Today, I'm constantly honing my retouching skills and searching for ways to optimize my craft. I'm thrilled to apply for the Photo Editor position, as I truly believe that my diverse experience, passion, and commitment to the arts make me an ideal candidate for this role.
+            Thank you for taking the time to read this message. I look forward to hearing from you soon.
+            <br>
+            Sincerely,
+            <br>
+            Charlotte
+          </p>
+          <img class="object-cover ml-8 w-full sm:w-6/12" :src="beach" alt="">
+        
       </article>
       <div class="flex justify-center py-32 ">
           <button class="my-10 rounded px-10 py-1 button">

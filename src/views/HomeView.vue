@@ -7,7 +7,7 @@
             <RouterLink
               class="flex lg:hidden text-2xl bg-opacity-50 w-full group-hover:flex justify-center uppercase text-slate-50 "
               :to="'/project/' + (index + 1)"
-              >Veiw Progect
+              >Veiw Project
             </RouterLink>
           </div>
         </div>
