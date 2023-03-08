@@ -109,7 +109,7 @@ export default {
             Charlotte
           </p>
         </div>
-        <img @contextmenu="$event.preventDefault()" class="object-cover sm:ml-8 w-full sm:w-6/12" :src="beach" alt="">
+        <img @contextmenu="$event.preventDefault()" class="object-cover mt-8 sm:mt-0 sm:ml-8 w-full sm:w-6/12" :src="beach" alt="">
         
       </article>
       <div class="flex justify-center py-32 ">
