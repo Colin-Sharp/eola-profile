@@ -90,7 +90,7 @@ export default {
         <div>
           <p class="mb-4">
             I wanted to take a moment to share with you why I pressed pause on my photography career and took an extended break from the creative grind.
-            Somewhere along the way, I lost touch with my passion. I was exhausted, uninspired, and felt like I was just going through the motions without any real connection to my work. So, I give myself the time to reassess my goals and priorities. I decided to take a step back and focus on the administrative job. 
+            Somewhere along the way, I lost touch with my passion. I was exhausted, uninspired, and felt like I was just going through the motions without any real connection to my work. So, I give myself the time to reassess my goals and priorities. I decided to take a step back and switched to an administrative job for a while.
           </p>
           <p class="mb-4">
             The pandemic gave me a rare moment to self-reflect on what's truly important in life. It took a while for me to realize that pursuing a creative career in its best form is an option. During this break, I reignited my love for learning and creating. I realised that I don't have to limit myself to just one form of creative expression. Instead, I can explore different mediums and techniques, and create something truly unique and meaningful.
