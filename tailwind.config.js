@@ -5,7 +5,7 @@ module.exports = {
         extend: {
           backgroundImage: theme => ({
             'ginger': "url('/src/assets/images/ginger-retouched.png')",
-            'parfumeBlueAfter': "url('/src/assets/images/ParfumeBlue.png')",
+            'perfumeBlueAfter': "url('/src/assets/images/PerfumeBlue.png')",
             'limeAndRed': "url('/src/assets/images/Lime-and-Red-v2.png')",
             'Chanelretoched': "url('/src/assets/images/Chanelretoched.png')",
             'PortraitAfter': "url('/src/assets/images/PortraitAfter.jpg')",

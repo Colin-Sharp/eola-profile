@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="flex justify-center sm:justify-start">
-                    <button class="my-10 rounded sm:ml-2 px-10 py-1 button">
+                    <button class="my-10 rounded transition-all ease-in-out delay-150 sm:ml-2 pl-16 pr-20 py-3 button">
                         <RouterLink class="text-2xl flex items-center" to="/"><span class="text-3xl pb-1 pr-1">&#8249;&#8249;</span> <span>Back</span></RouterLink>
                     </button>
                 </div>
@@ -28,8 +28,8 @@
 <script>
 import gingerBefore from '../assets/images/ginger-before.jpg';
 import gingerRetouched from '../assets/images/ginger-retouched.png';
-import parfumePinkAfter from '../assets/images/ParfumePinkB.png';
-import parfumeBlueAfter from '../assets/images/ParfumeBlue.png';
+import parfumePinkAfter from '../assets/images/PerfumePinkB.png';
+import parfumeBlueAfter from '../assets/images/PerfumeBlue.png';
 import parfumeBlueBefore from '../assets/images/BluePorfumeOriginal.png';
 import limeAndRed from '../assets/images/Lime-and-Red-v2.png';
 import limeAndRedBefore from '../assets/images/Lime-and-Red-original.jpg';
