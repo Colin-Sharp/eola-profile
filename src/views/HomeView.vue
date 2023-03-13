@@ -28,7 +28,8 @@ export default {
         'bg-PortraitAfter',
         'bg-bag',
         'bg-sasha',
-        'bg-detailsAfter'
+        'bg-detailsAfter',
+        'bg-Beauty'
       ]
     }
   }

@@ -10,8 +10,9 @@ module.exports = {
             'Chanelretoched': "url('/src/assets/images/Chanelretoched.png')",
             'PortraitAfter': "url('/src/assets/images/PortraitAfter.jpg')",
             'bag': "url('/src/assets/images/Bag.jpeg')",
-            'sasha': "url('/src/assets/images/SashaRetouchedFinal.png')",
-            'detailsAfter': "url('/src/assets/images/DetailsAfter.png')"
+            'sasha': "url('/src/assets/images/SashaRetouched.png')",
+            'detailsAfter': "url('/src/assets/images/DetailsAfter.png')",
+            'Beauty': "url('/src/assets/images/BeautyAfter.png')"
           }),
           display: ["group-hover"]
         },

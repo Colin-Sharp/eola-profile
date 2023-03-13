@@ -40,10 +40,12 @@ import portraitAfter from '../assets/images/PortraitAfter.jpg';
 import portraitBefore from '../assets/images/PortraitBefore.jpg';
 import bagBefore from '../assets/images/Bag-before.jpeg';
 import bagAfter from '../assets/images/Bag.jpeg';
-import sashaBefore from '../assets/images/SashaOriginal.png';
-import sashaAfter from '../assets/images/SashaRetouchedFinal.png';
+import sashaBefore from '../assets/images/SashaOriginal.jpg';
+import sashaAfter from '../assets/images/SashaRetouched.png';
 import DetailsAfter from '../assets/images/DetailsAfter1.png';
 import DetailsBefore from '../assets/images/DetailsBefore.jpg';
+import BeautyAfter from '../assets/images/BeautyAfter.png';
+import BeautyBefore from '../assets/images/BeautyBefore.jpg';
 
 export default {
    data() {
@@ -89,6 +91,11 @@ export default {
             images: [
                 DetailsBefore,
                 DetailsAfter
+            ]},
+            {id: 9,
+            images: [
+                BeautyBefore,
+                BeautyAfter
             ]},
         ],
         currentId: 1
