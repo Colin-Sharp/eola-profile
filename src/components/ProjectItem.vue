@@ -15,11 +15,11 @@
                     </div>
                 </div>
                 <div class="flex justify-between px-3">
-                    <button @click="previous()" class="my-10 rounded transition-all ease-in-out delay-150 px-10 py-1 button">
-                        <span class="text-2xl flex items-center" ><span class="text-3xl pb-1 pr-2">&#8249;</span> <span>Previous</span></span>
+                    <button @click="previous()" class="my-10 rounded transition-all ease-in-out delay-150 px-3 sm:px-10 py-1 button">
+                        <span class="text-2xl flex items-center" ><span class="text-3xl pb-1 sm:pr-2">&#8249;</span> <span class="hidden sm:block">Previous</span></span>
                     </button>
-                    <button @click="next()" class="my-10 ml-2 rounded transition-all ease-in-out delay-150 px-14 py-1 button">
-                        <span class="text-2xl flex items-center"> <span>Next</span> <span class="text-3xl pb-1 pl-2">&#8250;</span></span>
+                    <button @click="next()" class="my-10 ml-2 rounded transition-all ease-in-out delay-150 px-3 sm:px-14 py-1 button">
+                        <span class="text-2xl flex items-center"> <span class="hidden sm:block">Next</span> <span class="text-3xl pb-1 sm:pl-2">&#8250;</span></span>
                     </button>
                 </div>
             </div>
