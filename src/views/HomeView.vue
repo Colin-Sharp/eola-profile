@@ -5,7 +5,7 @@
         <div :class="[image, 'md:w-11/12 mx-auto bg-cover w-full h-full']">
           <RouterLink :to="'/project/' + (index + 1)" class="link-cover transition-all ease-in-out delay-150 bg-stone-900 bg-opacity-50 lg:bg-opacity-0 hover:bg-stone-900  hover:bg-opacity-50 bg-cover w-full md:w-11/12 group">
             <p
-              class="flex lg:hidden text-2xl bg-opacity-50 w-full group-hover:flex justify-center uppercase text-slate-50 "
+            class="flex lg:opacity-0 transition-all ease-in-out delay-150 text-2xl bg-opacity-50 w-full group-hover:opacity-100 justify-center uppercase text-slate-50 "
               >Veiw Project
           </p>
           </RouterLink>
@@ -21,15 +21,16 @@ export default {
   data(){
     return {
       images: [
-        'bg-ginger',
+        'bg-Beauty',
         'bg-perfumeBlueAfter',
-        'bg-limeAndRed',
+        'bg-Bege',
         'bg-Chanelretoched',
         'bg-PortraitAfter',
         'bg-bag',
         'bg-sasha',
         'bg-detailsAfter',
-        'bg-Beauty'
+        'bg-ginger',
+        'bg-limeAndRed'
       ]
     }
   }

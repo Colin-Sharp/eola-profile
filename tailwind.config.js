@@ -12,7 +12,8 @@ module.exports = {
             'bag': "url('/src/assets/images/Bag.jpeg')",
             'sasha': "url('/src/assets/images/SashaRetouched.png')",
             'detailsAfter': "url('/src/assets/images/DetailsAfter.png')",
-            'Beauty': "url('/src/assets/images/BeautyAfter.png')"
+            'Beauty': "url('/src/assets/images/BeautyAfter.jpg')",
+            'Bege': "url('/src/assets/images/Bege.jpg')"
           }),
           display: ["group-hover"]
         },

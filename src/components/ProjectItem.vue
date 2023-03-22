@@ -44,8 +44,10 @@ import sashaBefore from '../assets/images/SashaOriginal.jpg';
 import sashaAfter from '../assets/images/SashaRetouched.png';
 import DetailsAfter from '../assets/images/DetailsAfter1.png';
 import DetailsBefore from '../assets/images/DetailsBefore.jpg';
-import BeautyAfter from '../assets/images/BeautyAfter.png';
+import BeautyAfter from '../assets/images/BeautyAfter.jpg';
 import BeautyBefore from '../assets/images/BeautyBefore.jpg';
+import Bege from '../assets/images/BegeBefore.jpg';
+import BegeAfter from '../assets/images/Bege.jpg';
 
 export default {
    data() {
@@ -53,8 +55,8 @@ export default {
         projects: [
             {id: 1,
             images: [
-                gingerBefore, 
-                gingerRetouched
+                BeautyBefore,
+                BeautyAfter
             ]},
             {id: 2,
             images: [
@@ -64,8 +66,8 @@ export default {
             ]},
             {id: 3,
             images: [
-                limeAndRedBefore,
-                limeAndRed
+                Bege,
+                BegeAfter
             ]},
             {id: 4,
             images: [
@@ -92,11 +94,17 @@ export default {
                 DetailsBefore,
                 DetailsAfter
             ]},
+            
             {id: 9,
             images: [
-                BeautyBefore,
-                BeautyAfter
+                gingerBefore, 
+                gingerRetouched
             ]},
+            {id: 10,
+            images: [
+                limeAndRedBefore,
+                limeAndRed
+            ]}
         ],
         currentId: 1
      }
