@@ -11,7 +11,7 @@ module.exports = {
             'PortraitAfter': "url('/src/assets/images/PortraitAfter.jpg')",
             'bag': "url('/src/assets/images/Bag.jpeg')",
             'sasha': "url('/src/assets/images/SashaRetouched.png')",
-            'detailsAfter': "url('/src/assets/images/DetailsAfter.png')",
+            'detailsAfter': "url('/src/assets/images/DetailsAfter.jpg')",
             'Beauty': "url('/src/assets/images/BeautyAfter.jpg')",
             'Bege': "url('/src/assets/images/Bege.jpg')"
           }),

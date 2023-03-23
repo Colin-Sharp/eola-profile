@@ -29,7 +29,7 @@
 
 
 <script>
-import gingerBefore from '../assets/images/ginger-before.jpg';
+import gingerBefore from '../assets/images/ginger-before.png';
 import gingerRetouched from '../assets/images/ginger-retouched.png';
 import parfumePinkAfter from '../assets/images/PerfumePinkB.png';
 import parfumeBlueAfter from '../assets/images/PerfumeBlue.png';
@@ -45,7 +45,7 @@ import bagBefore from '../assets/images/Bag-before.jpeg';
 import bagAfter from '../assets/images/Bag.jpeg';
 import sashaBefore from '../assets/images/SashaOriginal.jpg';
 import sashaAfter from '../assets/images/SashaRetouched.png';
-import DetailsAfter from '../assets/images/DetailsAfter1.png';
+import DetailsAfter from '../assets/images/DetailsAfter.jpg';
 import DetailsBefore from '../assets/images/DetailsBefore.jpg';
 import BeautyAfter from '../assets/images/BeautyAfter.jpg';
 import BeautyBefore from '../assets/images/BeautyBefore.jpg';
