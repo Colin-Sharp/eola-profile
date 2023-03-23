@@ -51,6 +51,8 @@ import BeautyAfter from '../assets/images/BeautyAfter.jpg';
 import BeautyBefore from '../assets/images/BeautyBefore.jpg';
 import Bege from '../assets/images/BegeBefore.jpg';
 import BegeAfter from '../assets/images/Bege.jpg';
+import Stellary from '../assets/images/Stellary.jpg';
+import StellaryOriginal from '../assets/images/StellaryOriginal.jpg';
 
 export default {
    data() {
@@ -107,6 +109,11 @@ export default {
             images: [
                 limeAndRedBefore,
                 limeAndRed
+            ]},
+            {id: 11,
+            images: [
+                StellaryOriginal,
+                Stellary
             ]}
         ],
         currentId: null

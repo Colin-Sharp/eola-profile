@@ -13,7 +13,8 @@ module.exports = {
             'sasha': "url('/src/assets/images/SashaRetouched.png')",
             'detailsAfter': "url('/src/assets/images/DetailsAfter.jpg')",
             'Beauty': "url('/src/assets/images/BeautyAfter.jpg')",
-            'Bege': "url('/src/assets/images/Bege.jpg')"
+            'Bege': "url('/src/assets/images/Bege.jpg')",
+            'Stellary': "url('/src/assets/images/Stellary.jpg')"
           }),
           display: ["group-hover"]
         },

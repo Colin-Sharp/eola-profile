@@ -30,7 +30,8 @@ export default {
         'bg-sasha',
         'bg-detailsAfter',
         'bg-ginger',
-        'bg-limeAndRed'
+        'bg-limeAndRed',
+        'bg-Stellary'
       ]
     }
   }
