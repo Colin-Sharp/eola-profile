@@ -1,13 +1,13 @@
 <script>
 import profileImage from '../assets/images/profile-image.png';
 import childIcecream from '../assets/images/child-icecream.png';
-import sasha from '../assets/images/SashaRetouched.png';
+import sasha from '../assets/images/SashaRetouchedFinal.png';
 import sasha2 from '../assets/images/Изображение.jpg';
 import colin from '../assets/images/colin.png';
 import sunset from '../assets/images/sunset-paris.png';
 import skills from '../assets/images/skills.png';
 import rada from '../assets/images/Rada.png';
-import beach from '../assets/images/beach.png';
+import beach from '../assets/images/beach.jpg';
 
 export default {
   data(){
